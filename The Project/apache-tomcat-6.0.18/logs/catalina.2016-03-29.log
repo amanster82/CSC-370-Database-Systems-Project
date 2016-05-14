@@ -1,0 +1,86 @@
+Mar 29, 2016 12:30:17 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-9000
+Mar 29, 2016 12:30:18 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Mar 29, 2016 12:30:24 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-9000
+Mar 29, 2016 12:43:52 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\binaries\php\php_runningversion;C:\ProgramData\Oracle\Java\javapath;C:\Python34\;C:\Python34\Scripts;C:\Program Files\Java\jdk1.8.0_25\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\12.0\DLLShared\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\ ;C:\Program Files (x86)\MinGW\bin;c:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\nodejs\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Users\Aman\AppData\Roaming\npm;.
+Mar 29, 2016 12:43:52 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-9000
+Mar 29, 2016 12:43:52 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 580 ms
+Mar 29, 2016 12:43:52 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Mar 29, 2016 12:43:52 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Mar 29, 2016 12:43:54 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-9000
+Mar 29, 2016 12:43:54 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Mar 29, 2016 12:43:54 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/42  config=null
+Mar 29, 2016 12:43:54 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2002 ms
+Mar 29, 2016 12:47:59 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-9000
+Mar 29, 2016 12:48:00 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Mar 29, 2016 12:48:00 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-9000
+Mar 29, 2016 1:01:36 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\binaries\php\php_runningversion;C:\ProgramData\Oracle\Java\javapath;C:\Python34\;C:\Python34\Scripts;C:\Program Files\Java\jdk1.8.0_25\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\12.0\DLLShared\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\ ;C:\Program Files (x86)\MinGW\bin;c:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\nodejs\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Users\Aman\AppData\Roaming\npm;.
+Mar 29, 2016 1:01:36 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-9000
+Mar 29, 2016 1:01:36 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 503 ms
+Mar 29, 2016 1:01:36 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Mar 29, 2016 1:01:36 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Mar 29, 2016 1:01:37 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-9000
+Mar 29, 2016 1:01:37 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Mar 29, 2016 1:01:37 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/38  config=null
+Mar 29, 2016 1:01:37 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1106 ms
+Mar 29, 2016 4:40:43 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading this Context has started
+Mar 29, 2016 5:08:14 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading this Context has started
+Mar 29, 2016 5:08:44 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading this Context has started
+Mar 29, 2016 5:09:35 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading this Context has started
+Mar 29, 2016 8:33:26 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-9000
+Mar 29, 2016 8:33:28 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Mar 29, 2016 8:33:33 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-9000
+Mar 29, 2016 10:33:14 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\binaries\php\php_runningversion;C:\ProgramData\Oracle\Java\javapath;C:\Python34\;C:\Python34\Scripts;C:\Program Files\Java\jdk1.8.0_25\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\12.0\DLLShared\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\ ;C:\Program Files (x86)\MinGW\bin;c:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\nodejs\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Users\Aman\AppData\Roaming\npm;.
+Mar 29, 2016 10:33:14 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-9000
+Mar 29, 2016 10:33:14 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 512 ms
+Mar 29, 2016 10:33:14 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Mar 29, 2016 10:33:14 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Mar 29, 2016 10:33:16 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-9000
+Mar 29, 2016 10:33:16 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Mar 29, 2016 10:33:16 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/36  config=null
+Mar 29, 2016 10:33:16 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2135 ms
+Mar 29, 2016 11:31:47 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-9000
+Mar 29, 2016 11:31:48 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Mar 29, 2016 11:31:49 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-9000

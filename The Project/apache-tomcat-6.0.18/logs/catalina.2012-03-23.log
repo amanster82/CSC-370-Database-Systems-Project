@@ -1,0 +1,24 @@
+23-Mar-2012 1:39:30 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+23-Mar-2012 1:39:31 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+23-Mar-2012 1:39:31 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+23-Mar-2012 1:39:53 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_25\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\MiKTeX 2.9\miktex\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Dell\DW WLAN Card\Driver;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio\OEM\AudioCore\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\cygwin\bin;C:\cygwin
+23-Mar-2012 1:39:53 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+23-Mar-2012 1:39:53 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 258 ms
+23-Mar-2012 1:39:53 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+23-Mar-2012 1:39:53 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+23-Mar-2012 1:39:54 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+23-Mar-2012 1:39:54 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+23-Mar-2012 1:39:54 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/10  config=null
+23-Mar-2012 1:39:54 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 982 ms

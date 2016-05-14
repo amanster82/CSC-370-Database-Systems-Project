@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Assign Flight</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script src="script.js"></script>
+		<link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+	
+	<!-- NAV BAR -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="start.html">AirData</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="start.html">Home</a></li>
+            <li><a href="insert.html">Insert Data</a></li>
+            <li><a href="deleteRoutes.html">Remove Routes</a></li>
+            <li><a href="(e)_FindBaggage.html">Track Baggage</a></li>
+			<li><a href="(f)_FindGate.html">Check if Gate is Free</a></li>
+			<li class= "active"><a href="(g)_AssignFlightDone.html">Assign Flight Status and Free Gates</a></li>
+			<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Search<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                  <li><a href="(a)_findAllRoutes.html">Search Routes</a></li> 
+				  <li><a href="(b)_placeRoutes.html">Search Routes Given City</a></li>
+				  <li><a href="(c)_findStatusGivenDate.html">Search Flight Given Time</a></li>
+				  <li><a href="(d)_FindPassengers.html">Search Passengers Given Departures/Arrivals</a></li>
+			  </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+	<!-- NAV BAR END -->
+		
+		<div style="padding-top: 100px">
+			<center>Assign the Flight Complete<br>
+				Gate Number: <input type="text" name="gatecode" value="" id="gatecode"/> <br>
+				Set Gate Status: 
+				<input type="radio" name="gate" id="isFree" value="free"> Free <input type="radio" name="gate" id="NotFree" value="notFree"> Not Free<br>
+				<button id="Assignsubmit-stuff">Submit</button><br>
+				<div id="Assign-results"></div>
+			</center>
+		</div>
+		
+		  <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="/js/bootstrap.min.js"></script>
+		
+    </body>
+</html>  

@@ -1,0 +1,137 @@
+INSERT INTO AIRLINES VALUES (
+'Air Canada',
+'aircanada.ca',
+'A123'
+);
+
+INSERT INTO AIRLINES VALUES (
+'West Jet',
+'westjet.ca',
+'B123'
+);
+
+INSERT INTO AIRLINES VALUES (
+'American Airlines',
+'aa.com',
+'C123'
+);
+
+INSERT INTO ROUTES VALUES(
+111,
+'Jet',
+'A123'
+);
+
+INSERT INTO ROUTES VALUES(
+222,
+'Jet',
+'B123'
+);
+
+INSERT INTO ROUTES VALUES(
+333,
+'Jet',
+'C123'
+);
+
+INSERT INTO OUTGOINGROUTES VALUES(
+'A123',
+111,
+'Toronto',
+TO_DATE ('2016-03-01 21:00', 'YYYY-MM-DD hh24:mi')
+);
+
+INSERT INTO INCOMINGROUTES VALUES(
+'B123',
+222,
+'Vancouver',
+TO_DATE ('2016-03-01 21:00', 'YYYY-MM-DD hh24:mi')
+);
+
+INSERT INTO INCOMINGROUTES VALUES(
+'C123',
+333,
+'Victoria',
+TO_DATE ('2016-03-01 21:00', 'YYYY-MM-DD hh24:mi')
+);
+
+INSERT INTO GATES VALUES (
+'A55',
+'Y'
+);
+
+INSERT INTO GATES VALUES (
+'B55',
+'Y'
+);
+
+INSERT INTO GATES VALUES (
+'B65',
+'N'
+);
+
+INSERT INTO DEPARTURES VALUES (
+'A123',
+111,
+'aaa',
+'A55',
+TO_DATE('2016-03-01 21:00', 'YYYY-MM-DD hh24:mi')
+);
+
+
+INSERT INTO ARRIVALS VALUES (
+'C123',
+333,
+'ccc',
+'B65',
+TO_DATE ('2016-03-01 21:00', 'YYYY-MM-DD hh24:mi')
+);
+
+INSERT INTO PASSENGERS VALUES (
+'1',
+'Vivi Trong',
+'123456',
+TO_DATE('1990-04-12', 'YYYY-MM-DD'),
+'Nanaimo',
+'aaa',
+'ccc'
+);
+
+
+INSERT INTO PASSENGERS VALUES (
+'2',
+'John Doe',
+'123456',
+TO_DATE('1980-04-12', 'YYYY-MM-DD'),
+'Edmonton',
+'aaa',
+'ccc'
+);
+
+INSERT INTO PASSENGERS VALUES (
+'3',
+'Ahmed Patel',
+'123456',
+TO_DATE('1985-03-12', 'YYYY-MM-DD'),
+'Toronto',
+'aaa',
+'ccc'
+);
+
+INSERT INTO BAGGAGE VALUES (
+'123',
+55,
+'1'
+);
+
+INSERT INTO BAGGAGE VALUES (
+'345',
+65,
+'2'
+);
+
+INSERT INTO BAGGAGE VALUES (
+'567',
+45,
+'2'
+);

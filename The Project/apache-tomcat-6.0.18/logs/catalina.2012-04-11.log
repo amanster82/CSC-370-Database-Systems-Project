@@ -1,0 +1,6 @@
+11-Apr-2012 10:44:58 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+11-Apr-2012 10:44:59 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+11-Apr-2012 10:44:59 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080

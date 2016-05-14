@@ -1,0 +1,2 @@
+1, Vivi Trong, 123456, 1990-04-12, Nanaimo, test, bbb
+2, John Doe, 54321, 1990-04-12, Nanaimo, fiewjfk, bbb

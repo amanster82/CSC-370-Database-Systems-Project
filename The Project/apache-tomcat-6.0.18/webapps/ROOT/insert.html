@@ -1,0 +1,158 @@
+<html>
+    <head>
+        <title>Insert</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script src="script.js"></script>
+		<link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/insert.css" rel="stylesheet">
+    </head>
+    <body>
+	
+	<!-- NAV BAR -->
+	
+	<!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="start.html">AirData</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="start.html">Home</a></li>
+            <li class="active"><a href="#">Insert Data</a></li>
+            <li><a href="deleteRoutes.html">Remove Routes</a></li>
+            <li><a href="(e)_FindBaggage.html">Track baggage</a></li>
+			<li><a href="(f)_FindGate.html">Check if Gate is Free</a></li>
+			<li><a href="#">Assign Flight Status and Free Gates</a></li>
+			<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Search<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                  <li><a href="(a)_findAllRoutes.html">Search Routes</a></li> 
+				  <li><a href="(b)_placeRoutes.html">Search Routes Given City</a></li>
+				  <li><a href="(c)_findStatusGivenDate.html">Search Status Given Date</a></li>
+				  <li><a href="(d)_FindPassengers.html">Search Passengers Given Departures/Arrivals</a></li>
+			  </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+	
+	<!--Enter Values into Tables-->
+	<!-- MAKE SURE ALL THE IDS ARE UNIQUE! ELSE WEIRD SHIT WILL HAPPEN -->
+		
+	<div class= "formControl">
+		<div id="top">
+			<center>Insert Data for Airlines<br>
+				Name: <input type="text" name="name" value="" id="name"/> <br>
+				Website: <input type="text" name="website" value="" id="website"/> <br>
+				Code: <input type="text" name="acode" value="" id="acode"/> <br>
+				<button id="submit-stuff">Submit</button><br>
+				<div id="airline-results"></div>
+			</center>
+		</div>
+		<br>
+		<div>
+			<center>Insert Data for Routes<br>
+				Route Number: <input type="text" name="name" value="" id="rnum"/> <br>
+				Plane Model: <input type="text" name="website" value="" id="rplanemodel"/> <br>
+				Airline Code: <input type="text" name="acode" value="" id="racode"/> <br>
+				<button id="rsubmit-stuff">Submit</button><br>
+				<div id="route-results"></div>
+			</center>
+		</div>
+		<br>
+		<div>
+			<center>Insert Data for Outgoing Routes<br>
+				Code: <input type="text" name="ocode" value="" id="ocode"/> <br>
+				Route number: <input type="text" name="oroute" value="" id="oroute"/> <br>
+				Destination: <input type="text" name="odestination" value="" id="odestination"/> <br>
+				Date: <input type="datetime-local" name="odate" id ="odate"> </br>
+				<button id="orsubmit-stuff">Submit</button><br>
+				<div id="outgoing-results"></div>
+			</center>
+		</div>
+		<br>
+		<div>
+			<center>Insert Data for Incoming Routes<br>
+				Code: <input type="text" name="icode" value="" id="icode"/> <br>
+				Route number: <input type="text" name="iroute" value="" id="iroute"/> <br>
+				Source: <input type="text" name="isource" value="" id="isource"/> <br>
+				Date: <input type="datetime-local" name="indate" id ="indate"> </br>
+				<button id="irsubmit-stuff">Submit</button><br>
+				<div id="incoming-results"></div>
+			</center>
+		</div>
+		<br>
+		<div>
+			<center>Insert Data for Gates<br>
+				Gate: <input type="text" name="gate" value="" id="gate"/> <br>
+				Gate Status: <input type="text" name="gstat" value="" id="gstat"/> <br>
+				<button id="Gatesubmit-stuff">Submit</button><br>
+				<div id="gate-results"></div>
+			</center>
+		</div>
+		<br>
+		<div>
+			<center>Insert Data for Departures<br>
+				Code: <input type="text" name="dcode" value="" id="dcode"/> <br>
+				Route number: <input type="text" name="dnum" value="" id="dnum"/> <br>
+				Departure ID: <input type="text" name="dID" value="" id="dID"/> <br>
+				Gate: <input type="text" name="dgate" value="" id="dgate"/> <br>
+				Date: <input type="datetime-local" name="ddate" id ="ddate"> </br>
+				<button id="DepartureSubmit-stuff">Submit</button><br>
+				<div id="departure-results"></div>
+			</center>
+		</div>
+		<br>
+		<div>
+			<center>Insert Data for Arrivals<br>
+				Code: <input type="text" name="arcode" value="" id="arcode"/> <br>
+				Route number: <input type="text" name="anum" value="" id="anum"/> <br>
+				Arrival ID: <input type="text" name="aID" value="" id="aID"/> <br>
+				Gate: <input type="text" name="agate" value="" id="agate"/> <br>
+				Arrival Date: <input type="datetime-local" name="adate" value="" id="adate"/> <br>
+				<button id="ArrivalsSubmit-stuff">Submit</button><br>
+				<div id="arrival-results"></div>
+			</center>
+		</div>
+		<br>
+		<div>
+			<center>Insert Data for Passengers<br>
+				<label class="file">
+				<input type="file" id="pfile">
+				<span class="file-custom"></span>
+				</label>
+				<br>
+				<button id="PassengersSubmit-stuff">Submit</button><br>
+				<div id="passenger-results"></div>
+			</center>
+		</div>
+		
+		<br>
+		<div>
+			<center>Insert Data for Baggages<br>
+				<label class="file">
+				<input type="file" id="bfile">
+				<span class="file-custom"></span>
+				</label>
+				<br>
+				<button id="BaggagesSubmit-stuff">Submit</button><br>
+				<div id="baggage-results"></div>
+			</center>
+		</div>
+				<br>
+		   <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
