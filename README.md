@@ -1,7 +1,7 @@
 # CSC-370-Database-Systems-Project
 
 
-This was a project created for CSC 370: Database System course @ UVIC. The project was to design a system for an international airpor
+This was a project created for CSC 370: Database System course @ UVIC. The project was to design a system for an international airport
 that wants to keep track of flights.
 
 The system was introduced as a web application that is backed by the ORACLE database and utilizes the Structured-Query-Language (SQL) and
